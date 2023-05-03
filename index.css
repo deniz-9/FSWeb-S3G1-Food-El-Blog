@@ -95,6 +95,9 @@ img {
   margin-top: 20px;
 
 */
+.about {
+  margin-top: 20px;
+}
 
 .container {
   margin-top: 20px;
@@ -109,8 +112,15 @@ img {
 .contact-section h2 {
   padding: 0;
   margin: 0 0 10px 0;
+
 }
 
+.dinner {
+  text-align: justify;
+}
+.container1 {
+  position: left;
+}
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
    line-height: 2;
 */
