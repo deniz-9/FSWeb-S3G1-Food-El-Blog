@@ -3,11 +3,16 @@
   color: #3c373b;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
   /*=======  Font size'ı 60px yapın ve text'i ortalayın(center) */
-  font-size: 60px;
+  font-size: 38px;
   text-align: center;
 }
 
@@ -21,6 +26,14 @@ h6 {
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
   font-size: 30px;
+}
+
+.content-row h2 {
+  margin-top: 0;
+}
+
+.content-row p {
+  margin: 6px 0;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:
@@ -43,10 +56,22 @@ p {
 
   border-radius: 10px;
   
+  
 */
 img {
   border-radius: 10px;
-  width: 100%;
+
+}
+
+#banner-image {
+  width: 800px;
+  padding: 20px 0;
+  background-color: whitesmoke;
+}
+
+.banner-container {
+  padding: 20px 0;
+  background-color: whitesmoke;
 }
 
 .container2 {
@@ -60,7 +85,8 @@ img {
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
-  margin: 20px;
+  margin: 30px 20px;
+  min-width: 40%;
 }
 
 .container {
@@ -69,16 +95,18 @@ img {
   width: 805px;
 }
 
+
+
 .container header nav a {
-  margin: 0 10px;
+  margin: 0 10px 20px 10px;
   border: 1px solid lightgray;
   padding: 20px;
   display: inline-block;
   border-radius: 20px;
   color: white;
   text-decoration: none;
-  margin-bottom: 20px;
   background: #E79947;
+  font-family: 'Gaegu', cursive;
 
   /*======= background property yaratın. Değerini #E79947 olarak atayınız.*/
 
@@ -118,14 +146,20 @@ img {
 .dinner {
   text-align: justify;
 }
+
 .container1 {
   position: left;
 }
+
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
    line-height: 2;
 */
 .contact-section address {
   line-height: 2;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 footer {
@@ -160,11 +194,13 @@ footer a {
   color: black;
   text-decoration: underline;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .iletişim {
   text-align: left;
 }
+
 
 footer nav a:first-child {
   margin-left: 0;
